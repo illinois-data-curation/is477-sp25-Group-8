@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 import time
 import os
-from datetime import datetime
 
 if not os.path.exists('data'):
     os.makedirs('data')
@@ -31,8 +30,11 @@ def extract_anime_fields(anime):
         'favorites': 0 if favorites is None else favorites
     }
 
+with open("apikey.txt", "r") as f:
+    apikey = f.readline().strip()
+    
 def fetch_anime_data(total_results):
-    base_url = "https://api.jikan.moe/v4/anime"
+    base_url = apikey
     all_data = []
     page = 1
     results_count = 0
@@ -67,7 +69,7 @@ def run_extraction(total_results):
     return anime_df
 
 if __name__ == "__main__":
-    anime_df = fetch_anime_data(120)
+    anime_df = fetch_anime_data(130)
     
     csv_filename = "data/myanimelist_data.csv"
     anime_df.to_csv(csv_filename, index=False)
