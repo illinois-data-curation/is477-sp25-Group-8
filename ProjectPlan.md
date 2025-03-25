@@ -85,30 +85,38 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 # Proposed Timeline: 
 
 ## March 9  - March 15: Team Formation & Setup
-Define roles, set up GitHub repository, outline project structure
-Research and acquire project topic and dataset
-Define project topic: Anime Database organization
+
+1. Define roles, set up GitHub repository, outline project structure
+
+2. Research and acquire project topic and dataset
+
+3. Define project topic: Anime Database organization
 
 ## March 23  - March 29: Data Acquisition
-Research the open source API key and unofficial anime platforms such as manga and anime community to gather more data to script a given amount of data from Kanji and create our third table
-Conduct exploratory data analysis , list out missing attributes and include necessary attributes
+
+1. Research the open source API key and unofficial anime platforms such as manga and anime community to gather more data to script a given amount of data from Kanji and create our third table
+
+2. Conduct exploratory data analysis , list out missing attributes and include necessary attributes
 
 ## March 30 - April 5: Data Integration
-Analyze all attributes from different datasets and identify our primary keys
-Create the anime database and connect tables with primary keys and foreign keys
-Select appropriate attributes to answer our research questions
+
+1. Analyze all attributes from different datasets and identify our primary keys
+2. Create the anime database and connect tables with primary keys and foreign keys
+3. Select appropriate attributes to answer our research questions
 
 ## April 6 - April 12
-Assess the data quality of our created anime database
-Inspect semantic or representation ambiguity
-Perform data cleaning and validate dataset consistency
-Conduct preliminary analysis to gain insights for our research questions
+
+1. Assess the data quality of our created anime database
+2. Inspect semantic or representation ambiguity
+3. Perform data cleaning and validate dataset consistency
+4. Conduct preliminary analysis to gain insights for our research questions
 
 ## April 13 - April 19
-Package the analysis workflow to ensure reproducibility
-Automate end-to-end workflow execution
-Cite all data and software sources properly
 
-## April 20 - April 26
-Create metadata describing your package
-Archive the project in a repository and obtain a persistent identifier
+1. Package the analysis workflow to ensure reproducibility
+2. Automate end-to-end workflow execution
+3. Cite all data and software sources properly
+
+## April 20 - May 1
+1. Create metadata describing your package
+2. Archive the project in a repository and obtain a persistent identifier
