@@ -4,7 +4,13 @@
 
 Japanese anime has become a global phenomenon that significantly influences popular culture and shapes the entertainment industry worldwide. According to a 2021 report by The Association of Japanese Animations, major streaming platforms, such as Netflix and Crunchyroll, have invested significant amounts of money in anime content, which demonstrates its commercial potential. By diving deeper into the unique patterns of Japanese anime culture, we plan to provide valuable insights for investors as well as the anime enthusiasts to better understand the current public taste in anime through our comprehensive research.
 
-## Project Goal 
+## Research Purpose and its Application
+
+### Cuurent Challenges in Anime Industry
+
+Due to fragmented and various data sources, most of the analysis would remain challenging or impossible to achieve. However, building an integrated database from various data sources offers numerous benefits for researchers, enthusiasts, and industry professionals. Production studios, distributors, and streaming platforms can utilize insights derived from this database to enhance their decision. Understanding how different attributes perform in specific markets allows professionals to make more targeted content development and acquisition strategies. To this end, our research offers competitive advantages within the rapidly evolving anime industry ecosystem. In addition, beyond its commercial applications, our research also benefits the overall Japanese anime community. Japanese anime enthusiasts can identify lesser-known works similar to their favorites through sophisticated recommendation algorithms built upon comprehensive metadata. As one can see, our research can be used to identify patterns and correlations that illuminate broader cultural and industry trends.
+
+### Project Goal
 
 This research project aims to develop a well structured Japanese anime database through the integration of various data sources, including open-source APIs, Kaggle datasets, and unofficial anime platforms. The integrated database serves as a reliable resource for addressing research questions pertaining to both the anime industry and the broader anime community. While exploring the unique relationships between each anime and its popularity, this project will involve data collection and data cleaning to form a relational database which ensures that data is consistent, accurate, and easily accessible for further research. The integrated database includes anime attributes such as titles, ratings, popularity, rank, etc. With automated data cleaning and reproducible analysis workflows, the project delves into anime’s growth and influence globally. 
 
@@ -96,27 +102,41 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 1. Research the open source API key and unofficial anime platforms such as manga and anime community to gather more data to script a given amount of data from Kanji and create our third table
 
-2. Conduct exploratory data analysis , list out missing attributes and include necessary attributes
+2. Conduct exploratory data analysis and list out missing attributes and include necessary attributes
 
 ## March 30 - April 5: Data Integration
 
 1. Analyze all attributes from different datasets and identify our primary keys
+
 2. Create the anime database and connect tables with primary keys and foreign keys
+
 3. Select appropriate attributes to answer our research questions
 
 ## April 6 - April 12
 
 1. Assess the data quality of our created anime database
+
 2. Inspect semantic or representation ambiguity
+
 3. Perform data cleaning and validate dataset consistency
+
 4. Conduct preliminary analysis to gain insights for our research questions
 
 ## April 13 - April 19
 
-1. Package the analysis workflow to ensure reproducibility
-2. Automate end-to-end workflow execution
+1. Create reproducible packages for our project 
+
+2. Automate the workflow through snakemake
+
 3. Cite all data and software sources properly
 
+4. Include Descriptive metadata for our project 
+
 ## April 20 - May 1
-1. Create metadata describing your package
-2. Archive the project in a repository and obtain a persistent identifier
+
+1. Add Data dictionary or codebook as text file
+
+2. Upload our project to the Zenodo long-term archive or a CodeOcean capsule
+
+3. Implement persistent identifier that is obtained from the long term archive
+
