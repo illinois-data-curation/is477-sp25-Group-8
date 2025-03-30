@@ -100,7 +100,7 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 ## March 23  - March 29: Data Acquisition
 
-1. Research the open source API key and unofficial anime platforms such as manga and anime community to gather more data to script a given amount of data from Kanji and create our third table
+1. Research the open source API key and anime platforms such as manga and anime community to gather more data to script a given amount of data from Kanji and create our third table
 
 2. Conduct exploratory data analysis and list out missing attributes and include necessary attributes
 
