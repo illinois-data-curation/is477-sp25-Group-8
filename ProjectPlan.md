@@ -1,6 +1,6 @@
 # Overview
 
-## Introduction to Japanese Anime Culture and its Influence
+## Introduction to Japanese Anime Culture and Its Influence
 
 Japanese anime has become a global phenomenon that significantly influences popular culture and shapes the entertainment industry worldwide. According to a 2021 report by The Association of Japanese Animations, major streaming platforms, such as Netflix and Crunchyroll, have invested significant amounts of money in anime content, which demonstrates its commercial potential. By diving deeper into the unique patterns of Japanese anime culture, we plan to provide valuable insights for investors as well as the anime enthusiasts to better understand the current public taste in anime through our comprehensive research.
 
@@ -8,11 +8,11 @@ Japanese anime has become a global phenomenon that significantly influences popu
 
 ### Cuurent Challenges in Anime Industry
 
-Due to fragmented and various data sources, most of the analysis would remain challenging or impossible to achieve. However, building an integrated database from various data sources offers numerous benefits for researchers, enthusiasts, and industry professionals. Production studios, distributors, and streaming platforms can utilize insights derived from this database to enhance their decision. Understanding how different attributes perform in specific markets allows professionals to make more targeted content development and acquisition strategies. To this end, our research offers competitive advantages within the rapidly evolving anime industry ecosystem. In addition, beyond its commercial applications, our research also benefits the overall Japanese anime community. Japanese anime enthusiasts can identify lesser-known works similar to their favorites through sophisticated recommendation algorithms built upon comprehensive metadata. As one can see, our research can be used to identify patterns and correlations that illuminate broader cultural and industry trends.
+Due to fragmented and different types of data sources, most of the research questions would remain challenging or impossible to answer. However, building an integrated database from various data sources offers numerous benefits for researchers, enthusiasts, and industry professionals. Production studios, distributors, and streaming platforms can utilize insights derived from this database to enhance their decision. Understanding how different attributes perform in specific markets allows professionals to make more targeted content development and acquisition strategies. To this end, our research offers competitive advantages within the rapidly evolving anime industry ecosystem. In addition, beyond its commercial applications, our research also benefits the overall Japanese anime community. Japanese anime enthusiasts can identify less known works similar to their favorites through sophisticated recommendation algorithms built upon comprehensive metadata. As one can see, our research can be used to identify patterns and correlations that illuminate broader cultural and industry trends.
 
-### Project Goal
+### Project Goal and Its Implementation
 
-This research project aims to develop a well structured Japanese anime database through the integration of various data sources, including open-source APIs, Kaggle datasets, and unofficial anime platforms. The integrated database serves as a reliable resource for addressing research questions pertaining to both the anime industry and the broader anime community. While exploring the unique relationships between each anime and its popularity, this project will involve data collection and data cleaning to form a relational database which ensures that data is consistent, accurate, and easily accessible for further research. The integrated database includes anime attributes such as titles, ratings, popularity, rank, etc. With automated data cleaning and reproducible analysis workflows, the project delves into anime’s growth and influence globally. 
+This research project aims to develop a well structured Japanese anime database through the integration of various data sources, including open-source APIs, Kaggle datasets, and unofficial anime platforms. The integrated database serves as a reliable resource for addressing research questions pertaining to both the anime industry and the broader anime community. While exploring the unique relationships between each anime and its popularity, this project will involve data collection and data cleaning to form a relational database which ensures that data is consistent, accurate, and easily accessible for further research. The integrated database includes anime attributes such as titles, ratings, popularity, rank, etc. With automated and reproduible workflows, this project delves into anime’s growth and influence globally for both professionals and fans in the field of Japanese anime industry. 
 
 # Research Questions 
 
@@ -114,7 +114,7 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 ## April 6 - April 12
 
-1. Assess the data quality of our created anime database
+1. Improve the data quality of our created anime database
 
 2. Inspect semantic or representation ambiguity
 
@@ -130,11 +130,11 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 3. Cite all data and software sources properly
 
-4. Include Descriptive metadata for our project 
+4. Include descriptive metadata for our project 
 
 ## April 20 - May 1
 
-1. Add Data dictionary or codebook as text file
+1. Add data dictionary or codebook as text file
 
 2. Upload our project to the Zenodo long-term archive or a CodeOcean capsule
 
