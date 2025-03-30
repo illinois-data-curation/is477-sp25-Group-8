@@ -33,7 +33,7 @@ As anime continues to expand its global footprint beyond traditional Japanese ma
   - *Conduct exploratory data profiling to identify missing values, duplicates, or inconsistencies*  
   - *Apply data cleaning techniques such as imputation, outlier detection, or normalization to ensure validity of the dataset*  
 
-- **Implement simple data analysis and/or visualization** (answering at least part of your RQs)  
+- **Implement simple data analysis and/or visualization**  
   - *Calculate descriptive statistics, frequency distributions, and value counts*  
   - *Perform initial exploratory data analysis (EDA) with Python libraries such as Pandas, Seaborn, and Matplotlib to uncover patterns, trends, and outliers in the data*  
 
@@ -58,7 +58,7 @@ As anime continues to expand its global footprint beyond traditional Japanese ma
   - *Script(s) used to programmatically acquire data (e.g., via requests) and check integrity (e.g., SHA-256)*  
   - *Documentation describing steps someone else would use to acquire data, including checksums. This is particularly important if your data cannot be redistributed.*  
 
-- **Automatic (programmatic) integration of datasets using Python/Pandas and/or SQL** (cf. Weeks 5-6)  
+- **Automatic programmatic integration of datasets using Python/Pandas and/or SQL** (cf. Weeks 5-6)  
   - *Use Python (Pandas) and SQL to merge multiple datasets from different sources*  
   - *Create conceptual models, integration schema, or query that spans the sources*  
 
