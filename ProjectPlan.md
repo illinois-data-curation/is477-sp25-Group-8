@@ -112,7 +112,7 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 3. Select appropriate attributes to answer our research questions
 
-## April 6 - April 12
+## April 6 - April 12: Profiling, Quality Assessment, Cleaning and Data analysis/Visualization
 
 1. Improve the data quality of our created anime database
 
@@ -122,7 +122,7 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 4. Conduct preliminary analysis to gain insights for our research questions
 
-## April 13 - April 19
+## April 13 - April 19: Automated Workflow, Reproducible Package, and Citation
 
 1. Create reproducible packages for our project 
 
@@ -132,11 +132,10 @@ The last dataset you will be applying is derived from Jikan. Through the Jikan R
 
 4. Include descriptive metadata for our project 
 
-## April 20 - May 1
+## April 20 - May 1: Metadata, Archival Record, and Persistent Identifier
 
 1. Add data dictionary or codebook as text file
 
 2. Upload our project to the Zenodo long-term archive or a CodeOcean capsule
 
 3. Implement persistent identifier that is obtained from the long term archive
-
