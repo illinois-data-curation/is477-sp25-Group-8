@@ -19,6 +19,7 @@ def make_api_request(url):
 def extract_anime_fields(anime):
     score_by = anime.get('scored_by')
     favorites = anime.get('favorites')
+    studios = anime.get('studios')
 
     return {
         'mal_id': anime.get('mal_id'),
@@ -27,7 +28,8 @@ def extract_anime_fields(anime):
         'airing': anime.get('airing'),
         'rating': anime.get('rating'),
         'score_by': 0 if score_by is None else score_by,
-        'favorites': 0 if favorites is None else favorites
+        'favorites': 0 if favorites is None else favorites,
+        'studios': None if studios is None else ', '.join([studio['name'] for studio in studios])
     }
 
 with open("apikey.txt", "r") as f:
