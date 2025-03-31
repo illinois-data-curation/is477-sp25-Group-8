@@ -20,6 +20,7 @@ def extract_anime_fields(anime):
     score_by = anime.get('scored_by')
     favorites = anime.get('favorites')
     studios = anime.get('studios')
+    members = anime.get('members')
 
     return {
         'mal_id': anime.get('mal_id'),
@@ -27,6 +28,7 @@ def extract_anime_fields(anime):
         'source': anime.get('source'),
         'airing': anime.get('airing'),
         'rating': anime.get('rating'),
+        'members': 0 if members is None else members,
         'score_by': 0 if score_by is None else score_by,
         'favorites': 0 if favorites is None else favorites,
         'studios': None if studios is None else ', '.join([studio['name'] for studio in studios])
@@ -65,7 +67,6 @@ def run_extraction(total_results):
     csv_filename = "data/myanimelist_data.csv"
     anime_df.to_csv(csv_filename, index=False)
 
-    print(f"Fetching data from MyAnimeList API...")
     print(f"Data successfully saved to {csv_filename}")
     print(f"Total entries saved: {len(anime_df)}")
 
