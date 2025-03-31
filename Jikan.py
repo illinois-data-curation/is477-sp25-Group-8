@@ -65,6 +65,7 @@ def run_extraction(total_results):
     csv_filename = "data/myanimelist_data.csv"
     anime_df.to_csv(csv_filename, index=False)
 
+    print(f"Fetching data from MyAnimeList API...")
     print(f"Data successfully saved to {csv_filename}")
     print(f"Total entries saved: {len(anime_df)}")
 
