@@ -11,7 +11,7 @@ checkpoint download_data:
         "data/animes.csv",
         "data/characters.csv"
     input:
-        "DownLoadData.py"
+        "DataAcquisition/DownLoadData.py"
     shell:
         "python {input}"
 
@@ -19,7 +19,7 @@ rule fetch_data:
     output: 
         "data/myanimelist_data.csv"
     input:
-        script = "Jikan.py",
+        script = "DataAcquisition/Jikan.py",
         anime_data = "data/animes.csv",
         character_data = "data/characters.csv"
     shell:
