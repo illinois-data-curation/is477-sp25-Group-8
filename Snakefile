@@ -1,14 +1,27 @@
 rule all:
     input:
+        "data/animes.csv",
+        "data/characters.csv",
         "database/IntegratedJapaneseAnime.db",
         "data/myanimelist_data.csv",
         "data/integrated_anime_data.csv"
+
+checkpoint download_data:
+    output:
+        "data/animes.csv",
+        "data/characters.csv"
+    input:
+        "DownLoadData.py"
+    shell:
+        "python {input}"
 
 rule fetch_data:
     output: 
         "data/myanimelist_data.csv"
     input:
-        script = "Jikan.py"
+        script = "Jikan.py",
+        anime_data = "data/animes.csv",
+        character_data = "data/characters.csv"
     shell:
         """
         echo "Fetching data from API key..."
@@ -21,6 +34,8 @@ rule create_and_import:
     input:
         create_script = "CreateDatabase.sql",
         import_script = "ImportData.sql",
+        anime_data = "data/animes.csv",
+        character_data = "data/characters.csv"
     shell:
         """
         echo "Creating database..."
