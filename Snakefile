@@ -32,8 +32,8 @@ rule create_and_import:
     output:
         "database/IntegratedJapaneseAnime.db"
     input:
-        create_script = "CreateDatabase.sql",
-        import_script = "ImportData.sql",
+        create_script = "DataIntegration/CreateDatabase.sql",
+        import_script = "DataIntegration/ImportData.sql",
         anime_data = "data/animes.csv",
         character_data = "data/characters.csv"
     shell:
@@ -48,8 +48,8 @@ rule integrate_and_export:
     output:
         "data/integrated_anime_data.csv"
     input:
-        integrate_script = "IntegrateData.sql",
-        export_script = "ExportData.sql",
+        integrate_script = "DataIntegration/IntegrateData.sql",
+        export_script = "DataIntegration/ExportData.sql",
         database = "database/IntegratedJapaneseAnime.db"
     shell:
         """
