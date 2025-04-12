@@ -3,10 +3,6 @@ import pandas as pd
 import time
 import os
 
-if not os.path.exists('data'):
-    os.makedirs('data')
-    print("Created 'data' directory for storing results")
-
 def make_api_request(url):
     try:
         response = requests.get(url)
@@ -34,7 +30,7 @@ def extract_anime_fields(anime):
         'studios': None if studios is None else ', '.join([studio['name'] for studio in studios])
     }
 
-with open("apikey.txt", "r") as f:
+with open("Key/Apikey.txt", "r") as f:
     apikey = f.readline().strip()
     
 def fetch_anime_data(total_results):
@@ -64,7 +60,7 @@ def fetch_anime_data(total_results):
 def run_extraction(total_results):
 
     anime_df = fetch_anime_data(total_results)
-    csv_filename = "data/myanimelist_data.csv"
+    csv_filename = "Data/myanimelist_data.csv"
     anime_df.to_csv(csv_filename, index=False)
 
     print(f"Data successfully saved to {csv_filename}")
@@ -75,7 +71,7 @@ def run_extraction(total_results):
 if __name__ == "__main__":
     anime_df = fetch_anime_data(130)
     
-    csv_filename = "data/myanimelist_data.csv"
+    csv_filename = "Data/myanimelist_data.csv"
     anime_df.to_csv(csv_filename, index=False)
     print(f"Data successfully saved to {csv_filename}")
     print(f"Total entries saved: {len(anime_df)}")
