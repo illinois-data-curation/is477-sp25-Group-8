@@ -69,7 +69,7 @@ def run_extraction(total_results):
     return anime_df
 
 if __name__ == "__main__":
-    anime_df = fetch_anime_data(130)
+    anime_df = fetch_anime_data(2000)
     
     csv_filename = "Data/myanimelist_data.csv"
     anime_df.to_csv(csv_filename, index=False)
