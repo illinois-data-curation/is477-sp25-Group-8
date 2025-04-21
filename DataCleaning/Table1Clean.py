@@ -9,9 +9,12 @@ def hash_url(url):
     return hashlib.sha256(url.encode()).hexdigest()
 
 df = df_raw.copy()
+
 df['link'] = df['link'].apply(hash_url)
-df.drop(columns=['img_url'], inplace=True)
-df = df.drop_duplicates(subset=['title'])
+df.drop(columns = ['img_url'], inplace = True)
+
+df = df.drop_duplicates(subset = ['title'])
+
 df['episodes'] = df['episodes'].fillna(df['episodes'].mean())
 df['score'] = df['score'].fillna(df['score'].mean())
 
@@ -24,7 +27,7 @@ rename_map = {
     'link': 'Anime Link'
 }
 
-df.rename(columns=rename_map, inplace=True)
+df.rename(columns = rename_map, inplace = True)
 df.columns = [rename_map.get(col, col.title()) for col in df.columns]
-df["Score Rate"] = (df['Score'] / df['Viewers']) * 100
-df.to_csv('Data/animes_cleaned.csv', index=False)
+
+df.to_csv('Data/animes_cleaned.csv', index = False)
