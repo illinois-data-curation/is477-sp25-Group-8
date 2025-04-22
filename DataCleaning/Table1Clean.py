@@ -30,4 +30,4 @@ rename_map = {
 df.rename(columns = rename_map, inplace = True)
 df.columns = [rename_map.get(col, col.title()) for col in df.columns]
 
-df.to_csv('Data/animes_cleaned.csv', index = False)
+df.to_csv('Data/animes_clean.csv', index = False)

@@ -1,40 +1,42 @@
+DROP TABLE IF EXISTS anime_api;
+CREATE TABLE anime_api (
+    "Anime Id" INTEGER PRIMARY KEY,
+    "Anime Type" TEXT,
+    "Anime Source" TEXT,
+    "Airing Status" TEXT,
+    "Anime Mppa Rating" TEXT,
+    Viewers INTEGER,
+    "Viewers Who Scored" INTEGER,
+    Favorites INTEGER,
+    "Anime Studio" TEXT,
+    "Favorite Rate (%)" REAL,
+    "Score Rate (%)" REAL
+);
+
 DROP TABLE IF EXISTS animes;
 CREATE TABLE animes (
-    uid INTEGER,
-    title TEXT,
-    synopsis TEXT,
-    genre TEXT,
-    aired TEXT,
-    episodes REAL,
-    members INTEGER,
-    popularity INTEGER,
-    ranked REAL,
-    score REAL,
-    img_url TEXT,
-    link TEXT
+    "Anime Id" INTEGER,
+    "English Title" TEXT,
+    Synopsis TEXT,
+    Genre TEXT,
+    Broadcast TEXT,
+    Episodes REAL,
+    Viewers INTEGER,
+    Popularity INTEGER,
+    Rank REAL,
+    Score REAL,
+    "Anime Link" TEXT,
+    FOREIGN KEY ("Anime Id") REFERENCES anime_api("Anime Id")
 );
 
 DROP TABLE IF EXISTS characters;
-CREATE TABLE IF NOT EXISTS characters (
-    mal_id INTEGER,
-    name TEXT,
-    name_kanji TEXT,
-    nicknames TEXT,
-    favorites INTEGER,
-    about TEXT,
-    main_picture TEXT,
-    url TEXT
-);
-
-DROP TABLE IF EXISTS anime_api;
-CREATE TABLE IF NOT EXISTS anime_api (
-    mal_id INTEGER,
-    type TEXT,
-    source TEXT,
-    airing BOOLEAN,
-    rating TEXT,
-    members INTEGER,
-    score_by INTEGER,
-    favorites INTEGER,
-    studios TEXT
+CREATE TABLE characters (
+    "Anime Id" INTEGER,
+    "Character English Name" TEXT,
+    "Character Japanese Name" TEXT,
+    "Character Nickname" TEXT,
+    "Character Favorites" INTEGER,
+    "Information About Character" TEXT,
+    Url TEXT,
+    FOREIGN KEY ("Anime Id") REFERENCES anime_api("Anime Id")
 );

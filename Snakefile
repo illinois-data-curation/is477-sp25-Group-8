@@ -1,23 +1,14 @@
 rule all:
     input:
-        # keys
         "Key/Googlekey.txt",
         "Key/ApiKey.txt",
-        # raw data
-        "Data/animes.csv",
-        "Data/characters.csv",
-        # fetched data
-        "Data/myanimelist_data.csv",
-        # database
+        "Data/animes_clean.csv",
+        "Data/characters_clean.csv",
+        "Data/myanimelist_data_clean.csv",
         "Database/IntegratedJapaneseAnime.db",
-        # final export
         "Data/integrated_anime_data.csv"
 
-
 rule get_key:
-    """
-    Generate your Google and API keys.
-    """
     input:
         script="DataAcquisition/GetKey.py"
     output:
@@ -26,11 +17,7 @@ rule get_key:
     shell:
         "python {input.script}"
 
-
 rule download_data:
-    """
-    Download raw anime and character CSVs using your keys.
-    """
     input:
         script="DataAcquisition/DownLoadData.py",
         google_key="Key/Googlekey.txt",
@@ -41,11 +28,7 @@ rule download_data:
     shell:
         "python {input.script}"
 
-
 rule fetch_data:
-    """
-    Enrich raw data via the Jikan API.
-    """
     input:
         script="DataAcquisition/Jikan.py",
         animes="Data/animes.csv",
@@ -53,36 +36,51 @@ rule fetch_data:
     output:
         myanimelist="Data/myanimelist_data.csv"
     shell:
-        """
-        echo "Fetching data from Jikan API..."
-        python {input.script}
-        """
+        "python {input.script}"
 
+rule clean_animes:
+    input:
+        script="DataCleaning/Table1Clean.py",
+        raw="Data/animes.csv"
+    output:
+        clean="Data/animes_clean.csv"
+    shell:
+        "python {input.script} {input.raw} {output.clean}"
+
+rule clean_characters:
+    input:
+        script="DataCleaning/Table2Clean.py",
+        raw="Data/characters.csv"
+    output:
+        clean="Data/characters_clean.csv"
+    shell:
+        "python {input.script} {input.raw} {output.clean}"
+
+rule clean_myanimelist:
+    input:
+        script="DataCleaning/Table3Clean.py",
+        raw="Data/myanimelist_data.csv"
+    output:
+        clean="Data/myanimelist_data_clean.csv"
+    shell:
+        "python {input.script} {input.raw} {output.clean}"
 
 rule create_and_import:
-    """
-    Create the SQLite database and import raw CSVs.
-    """
     input:
         create_script="DataIntegration/CreateDatabase.sql",
         import_script="DataIntegration/ImportData.sql",
-        animes="Data/animes.csv",
-        characters="Data/characters.csv"
+        animes="Data/animes_clean.csv",
+        characters="Data/characters_clean.csv",
+        myanimelist="Data/myanimelist_data_clean.csv"
     output:
         db="Database/IntegratedJapaneseAnime.db"
     shell:
         """
-        echo "Creating database schema..."
         sqlite3 {output.db} < {input.create_script}
-        echo "Importing CSV data..."
         sqlite3 {output.db} < {input.import_script}
         """
 
-
 rule integrate_and_export:
-    """
-    Run integration SQL and export the final joined CSV.
-    """
     input:
         integrate_script="DataIntegration/IntegrateData.sql",
         export_script="DataIntegration/ExportData.sql",
@@ -91,8 +89,6 @@ rule integrate_and_export:
         "Data/integrated_anime_data.csv"
     shell:
         """
-        echo "Integrating tables..."
         sqlite3 {input.db} < {input.integrate_script}
-        echo "Exporting integrated data..."
         sqlite3 {input.db} < {input.export_script}
         """
