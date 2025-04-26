@@ -6,7 +6,11 @@ rule all:
         "Data/characters_clean.csv",
         "Data/myanimelist_data_clean.csv",
         "Database/IntegratedJapaneseAnime.db",
-        "Data/integrated_anime_data.csv"
+        "Data/integrated_anime_data.csv",
+        "Results/AnimeScoresAndViewers.png",
+        "Results/ViewersEngagementPercentage.png",
+        "Results/MostPopularGenre.png",
+        "Results/HashCheck.txt"
 
 rule get_key:
     input:
@@ -92,3 +96,43 @@ rule integrate_and_export:
         sqlite3 {input.db} < {input.integrate_script}
         sqlite3 {input.db} < {input.export_script}
         """
+
+rule viewers_vs_score_plot:
+    input:
+        script = "DataVisualization/ViewersVsScore.py",
+        data   = "Data/integrated_anime_data.csv"
+    output:
+        "Results/AnimeScoresAndViewers.png"
+    shell:
+        "python {input.script}"
+
+rule viewers_engagement_plot:
+    input:
+        script = "DataVisualization/ViewersEngagementPercentage.py",
+        data   = "Data/integrated_anime_data.csv"
+    output:
+        "Results/ViewersEngagementPercentage.png"
+    shell:
+        "python {input.script}"
+
+rule most_popular_genre_plot:
+    input:
+        script = "DataVisualization/MostPopularGenre.py",
+        data   = "Data/integrated_anime_data.csv"
+    output:
+        "Results/MostPopularGenre.png"
+    shell:
+        "python {input.script}"
+
+rule hash_check:
+    input:
+        script = "AdditionalScripts/CheckHashSum.py",
+        files  = [
+            "Data/animes.csv",
+            "Data/characters.csv",
+            "Data/myanimelist_data.csv"
+        ]
+    output:
+        "Results/HashCheck.txt"
+    shell:
+        "python {input.script}"
