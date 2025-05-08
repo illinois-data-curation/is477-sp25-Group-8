@@ -207,6 +207,8 @@ On macOS and Linux
 
 On Windows
 
+```Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned```
+
 ```.\venv\Scripts\activate```
 
 ## Install Dependencies
