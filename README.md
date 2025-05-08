@@ -80,7 +80,7 @@ The anime culture has become a global phenomenon that significantly influences p
 
 Despite the success of anime in fan communities and streaming services, detailed information about each anime series remains fragmented across multiple sources. Open source databases like MyAnimeList contain user ratings and reviews for tens of thousands of anime titles while streaming companies hold data on viewership and global reach. There is a compelling need for an integrated anime database that consolidates these disparate data points into a single database. With the integrated database, it enables researchers and industry analysts to systematically examine patterns and correlations in anime data. Therefore, detailed analysis on the final integrated database could help investors make informed decisions about production funding, licensing, or merchandising opportunities. Meanwhile, anime fans can gain deeper insights into popular genres, seasonal trends, and the evolution of anime over time. Ultimately, both the created anime database and its data analysis could bridge the gap between creative content and business strategy, supporting the sustainable growth of the anime industry.
 
-## Methodology:
+## Methodology
 
 In this project, we created a well organized Japanese anime database and discovered any unique insights or patterns. The database is composed of anime datasets shared on Kaggle and open resource anime API. With the created integrated database, we conduct data analysis and provide meaningful information for investors as well as anime enthusiasts to better understand industry trends, audience preferences, and content performance. For example, one could analyze whether certain genres tend to achieve higher international popularity, or how a series' user rating correlates with its viewership numbers across regions. By developing an integrated database and analytical framework, this project seeks to answer such questions and provide insights into the drivers of anime's worldwide success. 
 
@@ -185,23 +185,37 @@ Sequence of steps required for someone else to reproduce our results.
 
 ## Create A Local Copy 
 
-Create a local copy on your machine: ```git clone https\://github.com/illinois-data-curation/is477-sp25-Group-8 ```
+Create a local copy on your machine
+
+```git clone https\://github.com/illinois-data-curation/is477-sp25-Group-8 ```
 
 ## Build Virtual Environment
 
-Build a virtual environment named 'venv': ```python3 -m venv venv```
+Build a virtual environment named 'venv'
+
+```python3 -m venv venv```
 
 ## Activate Virtual Environment
 
-On macOS and Linux: ```source venv/bin/activate```On Windows:```.\venv\Scripts\activate```
+On macOS and Linux
+
+```source venv/bin/activate```
+
+On Windows
+
+```.\venv\Scripts\activate```
 
 ## Install Dependencies
 
-Install the required dependencies from the requirements.txt file: ```pip install -r requirements.txt```
+Install the required dependencies from the requirements.txt file
+
+```pip install -r requirements.txt```
 
 ## Reproduce Our Analysis 
  
-Run the Snakemake workflow with the following command: ```snakemake --cores 1```
+Run the Snakemake workflow with the following command
+
+```snakemake --cores 1```
 
 # References 
 
@@ -209,34 +223,52 @@ Formatted citations for any papers, datasets, and software used in our project.�
 
 ## Research Paper Citations
 
-Bali, V. (2025, March 19). The global anime market size was USD 28.8 billion in 2023!. Cognitive Market Research. https://www.cognitivemarketresearch.com/anime-market-report
-Shinde, Y. (2024, July 3). Anime market trends: A journey towards USD 74.8 bn. Market.us Scoop. https://scoop.market.us/anime-market-news/
-Dyck, S. O. P. R. (2024, September 6). Should Christians watch anime? A discernment guide. Pauline.org. https://pauline.org/media-mindfulness/should-christians-watch-anime-a-discernment-guide/
-Razak, S. (2025, January 9). Exploring the world of Anime. prezi.com. https://prezi.com/p/8jc6oob9utvq/exploring-the-world-of-anime/
-Ferjan, M. (2024, January 8). 20+ Anime Statistics & Facts: How many people watch anime? (2025). HeadphonesAddict. https://headphonesaddict.com/anime-statistics/
-Pace-McCarrick, S. (2021, December 16). How far does anime challenge Joseph Nye’s “Soft power” and its approach to culture? E-International Relation. https://www.e-ir.info/2021/12/11/how-far-does-anime-challenge-joseph-nyes-soft-power-and-its-approach-to-culture/
-Iwabuchi, K. (2002, November 8). Recentering globalization. De Gruyter Brill. https://www.degruyterbrill.com/document/doi/10.1515/9780822384083/html
-Fennell, D., Liberato, A. S. Q., Hayden, B., & Fujino, Y. (2013, September 1). Consuming anime. The Aquila Digital Community. https://aquila.usm.edu/fac_pubs/8302/
-Mash, M. (2024, September 4). The global impact of japanese animation: How anime shaped pop culture. ALC Atlantis. https://alc-atlantis.com/the-global-impact-of-japanese-animation-how-anime-shaped-pop-culture/
-Scottnicole, S. (2024, January 17). Psychological benefits of Cosplay. The Urban Crews. https://www.theurbancrews.com/lifestyle/cosplay-psychological-benefits/
-Hulu - Anime News Network. (2025, April 26). Animenewsnetwork.com. https://www.animenewsnetwork.com/encyclopedia/company.php?id=6901
-Tran, V. H., Sebastian, Y., Karim, A., & Azam, S. (2024, December 5). Distinguishing human journalists from artificial storytellers through stylistic fingerprints. MDPI. https://www.mdpi.com/2073-431X/13/12/328
- DeGuzman, K. (2024, April 17). Non-linear plots - how to write stories out of order. StudioBinder. https://www.studiobinder.com/blog/what-is-a-non-linear-plot-definition/
- Bischoff, M. (2024, February 20). How recommendation algorithms work--and why they may miss the mark. Scientific American. https://www.scientificamerican.com/article/how-recommendation-algorithms-work-and-why-they-may-miss-the-mark/#:~:text=Whether%20we%E2%80%99re%20using%20Spotify%2C%20Amazon%2C,For%20example%2C%20the
-Peters, M. (2024, October 5). Here’s how demon slayer’s anime boosted the manga sales. ComicBook.com. https://comicbook.com/anime/news/demon-slayer-anime-influence-manga-sales-boost/#:~:text=In%20terms%20of%20numbers%2C%20Demon,all%20thanks%20to%20the%20anime
-Atherton, M. T. (2024, April 18). Anime’s outsized impact on social media, quantified. Anime Trending | Your Voice in Anime! https://www.anitrendz.com/news/2024/04/19/animes-outsized-impact-on-social-media-quantified
-Wikimedia Foundation. (2025, April 22). Statistics. Wikipedia. https://en.wikipedia.org/wiki/Wikipedia:Statistics#:~:text=As%20of%20April%202025%2C%20the,encyclopedic%20text%20is%20added
- Purini, R. (2024, July 3). Sony Group Portal - Crunchyroll’s mission to be the ultimate destination for anime fans. Sony Group Portal - Home. https://www.sony.com/en/SonyInfo/blog/2024/07/03/
+## - Bali, V. (2025, March 19). _The global anime market size was USD 28.8 billion in 2023!_. Cognitive Market Research. <https://www.cognitivemarketresearch.com/anime-market-report>
 
+- Shinde, Y. (2024, July 3). _Anime market trends: A journey towards USD 74.8 bn_. Market.us Scoop. <https://scoop.market.us/anime-market-news/>
+
+- Dyck, S. O. P. R. (2024, September 6). _Should Christians watch anime? A discernment guide_. Pauline.org. <https://pauline.org/media-mindfulness/should-christians-watch-anime-a-discernment-guide/>
+
+- Razak, S. (2025, January 9). _Exploring the world of Anime_. prezi.com. <https://prezi.com/p/8jc6oob9utvq/exploring-the-world-of-anime/>
+
+- Ferjan, M. (2024, January 8). _20+ Anime Statistics & Facts: How many people watch anime? (2025)_. HeadphonesAddict. <https://headphonesaddict.com/anime-statistics/>
+
+- Pace-McCarrick, S. (2021, December 16). How far does anime challenge Joseph Nye’s “Soft power” and its approach to culture? E-International Relation. <https://www.e-ir.info/2021/12/11/how-far-does-anime-challenge-joseph-nyes-soft-power-and-its-approach-to-culture/>
+
+- Iwabuchi, K. (2002, November 8). Recentering globalization. De Gruyter Brill. <https://www.degruyterbrill.com/document/doi/10.1515/9780822384083/html>
+
+- Fennell, D., Liberato, A. S. Q., Hayden, B., & Fujino, Y. (2013, September 1). _Consuming anime_. The Aquila Digital Community. <https://aquila.usm.edu/fac_pubs/8302/>
+
+- Mash, M. (2024, September 4). The global impact of japanese animation: How anime shaped pop culture. ALC Atlantis. <https://alc-atlantis.com/the-global-impact-of-japanese-animation-how-anime-shaped-pop-culture/>
+
+- Scottnicole, S. (2024, January 17). _Psychological benefits of Cosplay_. The Urban Crews. <https://www.theurbancrews.com/lifestyle/cosplay-psychological-benefits/>
+
+- Hulu - Anime News Network. (2025, April 26). Animenewsnetwork.com. <https://www.animenewsnetwork.com/encyclopedia/company.php?id=6901>
+
+- Tran, V. H., Sebastian, Y., Karim, A., & Azam, S. (2024, December 5). Distinguishing human journalists from artificial storytellers through stylistic fingerprints. MDPI. <https://www.mdpi.com/2073-431X/13/12/328>
+
+- DeGuzman, K. (2024, April 17). Non-linear plots - how to write stories out of order. StudioBinder. <https://www.studiobinder.com/blog/what-is-a-non-linear-plot-definition/>
+
+- Bischoff, M. (2024, February 20). How recommendation algorithms work--and why they may miss the mark. Scientific American. <https://www.scientificamerican.com/article/how-recommendation-algorithms-work-and-why-they-may-miss-the-mark/#:~:text=Whether%20we%E2%80%99re%20using%20Spotify%2C%20Amazon%2C,For%20example%2C%20the>
+
+- Peters, M. (2024, October 5). Here’s how demon slayer’s anime boosted the manga sales. ComicBook.com. <https://comicbook.com/anime/news/demon-slayer-anime-influence-manga-sales-boost/#:~:text=In%20terms%20of%20numbers%2C%20Demon,all%20thanks%20to%20the%20anime>
+
+- Atherton, M. T. (2024, April 18). _Anime’s outsized impact on social media, quantified_. Anime Trending | Your Voice in Anime! <https://www.anitrendz.com/news/2024/04/19/animes-outsized-impact-on-social-media-quantified>
+
+- Wikimedia Foundation. (2025, April 22). Statistics. Wikipedia. <https://en.wikipedia.org/wiki/Wikipedia:Statistics#:~:text=As%20of%20April%202025%2C%20the,encyclopedic%20text%20is%20added>
+
+- Purini, R. (2024, July 3). Sony Group Portal - Crunchyroll’s mission to be the ultimate destination for anime fans. Sony Group Portal - Home. <https://www.sony.com/en/SonyInfo/blog/2024/07/03/>
 
 ## Datasets Citation 
 
-Marlesson. (2025-05-05). Anime Dataset with Reviews - MyAnimeList | Kaggle. Retrieved from <https://www.kaggle.com/datasets/marlesson/myanimelist-dataset-animes-profiles-reviews?select=reviews.csv>Andreu Vall Hernàndez. (2025-05-05). MyAnimelist Jikan Database | Kaggle. Retrieved from <https://www.kaggle.com/datasets/andreuvallhernndez/myanimelist-jikan?select=characters.csv>MyAnimeList. (2025-03-15). _MyAnimeList_. Retrieved March 15, 2025, from[ https://myanimelist.net/](https://myanimelist.net/)
+## * Marlesson. (2025-05-05). Anime Dataset with Reviews - MyAnimeList | Kaggle. Retrieved from <https://www.kaggle.com/datasets/marlesson/myanimelist-dataset-animes-profiles-reviews?select=reviews.csv>
+
+* Andreu Vall Hernàndez. (2025-05-05). MyAnimelist Jikan Database | Kaggle. Retrieved from <https://www.kaggle.com/datasets/andreuvallhernndez/myanimelist-jikan?select=characters.csv>- MyAnimeList. (2025-03-15). _MyAnimeList_. Retrieved March 15, 2025, from[ https://myanimelist.net/](https://myanimelist.net/)
 
 ## API Citation
 
-@irfanDahir. (2025-05-05). Jikan - Unofficial Myanimelist API. Retrieved from <https://jikan.moe/>
+## - @irfanDahir. (2025-05-05). Jikan - Unofficial Myanimelist API. Retrieved from <https://jikan.moe/>
 
 ## Software Citation
 
-Python Software Foundation. (2023). Python (Version 3.11) \[Computer software]. Available from <https://www.python.org/>Hipp, D. R. (2023). SQLite \[Software]. <https://www.sqlite.org/>
+## * Python Software Foundation. (2023). Python (Version 3.11) \[Computer software]. Available from <https://www.python.org/>- Hipp, D. R. (2023). SQLite \[Software]. <https://www.sqlite.org/>
