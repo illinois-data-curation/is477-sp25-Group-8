@@ -223,7 +223,7 @@ Formatted citations for any papers, datasets, and software used in our project.Â
 
 ## Research Paper Citations
 
-## - Bali, V. (2025, March 19). _The global anime market size was USD 28.8 billion in 2023!_. Cognitive Market Research. <https://www.cognitivemarketresearch.com/anime-market-report>
+- Bali, V. (2025, March 19). _The global anime market size was USD 28.8 billion in 2023!_. Cognitive Market Research. <https://www.cognitivemarketresearch.com/anime-market-report>
 
 - Shinde, Y. (2024, July 3). _Anime market trends: A journey towards USD 74.8 bn_. Market.us Scoop. <https://scoop.market.us/anime-market-news/>
 
