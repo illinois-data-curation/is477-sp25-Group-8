@@ -221,7 +221,7 @@ Run the Snakemake workflow with the following command
 
 Our snakemake automation will produce the following workflow as demonstrated below in the graph 
 
-![Snakemake Workflow](AdditionalResource/a.png)
+![Snakemake Workflow](AdditionalResource/a.PNG)
 
 # References 
 
