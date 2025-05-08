@@ -140,7 +140,7 @@ Conversely, there are anime that attract huge viewership despite having relative
 ### How Active Do Viewers Engage Based On Anime’s Popularity
 
 
-![Viewer Engagement Data Visualization](../AdditionalResource/3.png)
+![Viewer Engagement Data Visualization](../AdditionalResource/2.png)
 
 
 The graphs indicate a complex relationship between an anime’s popularity and how actively its viewers engage as measured by engagement activities. Viewers are most actively engaged through rating and favoriting when an anime resonates strongly with them, which is often correlated with the anime’s quality and its popularity. While popular anime gather a large number of engaged users, their engagement proportion may be affected by different viewers. On the other hand, anime with slightly smaller but passionate audiences can see disproportionately high engagement rates. As shown in the graphs, high score anime usually achieve high engagement ratios compared to average anime. Conversely, low score anime also achieve high engagement ratios due to fans complaining compared to average. In other words, anime popularity alone does not guarantee active discussion or feedback. Instead, the quality of an anime affects whether viewers engage very actively or not. 
