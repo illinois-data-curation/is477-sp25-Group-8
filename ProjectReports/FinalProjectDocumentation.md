@@ -467,6 +467,7 @@ Kaggle is not our primary data source, but Kaggle is the platform where the info
 
 ## Archival Record (cf. Week 14)
 
+https://sandbox.zenodo.org/records/215322
 
 
 
@@ -476,5 +477,6 @@ Kaggle is not our primary data source, but Kaggle is the platform where the info
 
 ## Persistent Identifier (cf. Week 12 or 14)
 
+DOI:10.5072/zenodo.215322
 
 

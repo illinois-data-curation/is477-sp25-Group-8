@@ -2,6 +2,10 @@
 
 # Link to archival record
 
+https://sandbox.zenodo.org/records/215322
+
+DOI:10.5072/zenodo.215322
+
 # Contributors
 
 ## Team Members
