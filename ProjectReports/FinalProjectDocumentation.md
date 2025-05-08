@@ -89,7 +89,7 @@ In order to answer the research questions that we are exploring earlier, we have
 ### Relationship between Anime Scores and Viewership
 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8SHUpAvkmyWmOxTSx4v8E5GQVZwhm9-9GuPXziKVTJYqY4PQkMharPculPgfy0Vip87n6yUE2O83jh1Ycqowc3T8dNa2UPKp-iOVrIiQF4eyHCSRRkosVNDwCoNaVpHDA-VDvqg?key=Wsy1Y4nL9pM03asfD-MRACoB)
+![Anime Score And Viewership Data Visualization](../AdditionalResource/1.png)
 
 
 This scatterplot indicates the relationship between anime scores and number of viewers; it shows a moderate positive relationship between an anime’s score and its viewership. The scatterplot reveals a wide spread at the end as many anime with scores in the range between 7 to 9 have higher viewership. For instance, the most watched titles usually have solid scores around 7 or higher. There are also few instances showing highly popular with very low scores, which shows that extremely bad anime rarely becomes massively popular. 
@@ -137,7 +137,10 @@ Conversely, there are anime that attract huge viewership despite having relative
 
 
 
-### How Active Do Viewers Engage Based On Anime’s Popularity![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfwWw05U6QTVMMZnreAi_xX3QMf_T2Mjsp8ed5pBWCFvVYdEUQ5fhIvfSZDkRLB-9ScV0scDolMLC0jOw4cJ-LXH7uiEVN4rLjaPyXAxmRzr9QzLY0Svw-BCF3tExdW5AshcMBKRw?key=Wsy1Y4nL9pM03asfD-MRACoB) 
+### How Active Do Viewers Engage Based On Anime’s Popularity
+
+
+![Viewer Engagement Data Visualization](../AdditionalResource/3.png)
 
 
 The graphs indicate a complex relationship between an anime’s popularity and how actively its viewers engage as measured by engagement activities. Viewers are most actively engaged through rating and favoriting when an anime resonates strongly with them, which is often correlated with the anime’s quality and its popularity. While popular anime gather a large number of engaged users, their engagement proportion may be affected by different viewers. On the other hand, anime with slightly smaller but passionate audiences can see disproportionately high engagement rates. As shown in the graphs, high score anime usually achieve high engagement ratios compared to average anime. Conversely, low score anime also achieve high engagement ratios due to fans complaining compared to average. In other words, anime popularity alone does not guarantee active discussion or feedback. Instead, the quality of an anime affects whether viewers engage very actively or not. 
@@ -187,10 +190,7 @@ Based on our observation, there appears to be a strong positive correlation betw
 
 ### The Most Popular Genres Based On Scores And Views
 
-
-****![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeRZHL67zMBOweAImdkhYQ75oufwSgBR0Xfk3i1ryPtycHRBlVwK8d0NDm-_W6xAZgiZ6H5dGl2uqa1TArzY9EQ6b3RYadZQjldF6MP1NBCicHHgp_LL2o3GTGiVYIeCsQ21ZbRkA?key=Wsy1Y4nL9pM03asfD-MRACoB)****
-
-
+![Genre Data Visualization](../AdditionalResource/3.png)
 
 
 By analyzing the radar chart, it becomes evident that certain genres have a distinctly stronger association with high viewership and widespread popularity. The radar chart distinctly illustrates that shoujo, slice of life, and drama are the three most popular genres associated with their viewer ratings as indicated by their notably higher scores. These visual indications suggest that anime within these genres consistently receive high scores among viewers. The genre shoujo shows the highest average score on the chart . Such consistent high ratings imply that the shoujo genre successfully captures audience attention through compelling character development and emotionally engaging narratives. Beyond identifying top-performing genres, the radar chart provides detailed information about each genre and their appearance frequency.
