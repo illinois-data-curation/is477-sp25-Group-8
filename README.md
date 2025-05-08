@@ -217,6 +217,12 @@ Run the Snakemake workflow with the following command
 
 ```snakemake --cores 1```
 
+## Visualize Our Workflow
+
+Our snakemake automation will produce the following workflow as demonstrated below in the graph 
+
+![Snakemake Workflow](../AdditionalResource/workflow.png)
+
 # References 
 
 Formatted citations for any papers, datasets, and software used in our project. 
