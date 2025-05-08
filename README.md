@@ -6,31 +6,33 @@
 
 ## Team Members
 
-## Weiting Yang* ORCID: <https://orcid.org/0009-0003-6401-2860>Qiran Hu * ORCID: <https://orcid.org/0009-0007-1753-0189>
+- Weiting Yang ORCID: <https://orcid.org/0009-0003-6401-2860>
+
+- Qiran Hu ORCID: <https://orcid.org/0009-0007-1753-0189>
 
 ## Team Members Responsibilities
 
 ### Weiting Yang
 
-## * Document data profiling, quality assessment, and cleaning (cf. Week 7)
+Document data profiling, quality assessment, and cleaning (cf. Week 7)
 
   - Conduct exploratory data profiling to identify missing values, duplicates, or inconsistencies
 
   - Apply data cleaning techniques such as imputation, outlier detection, or normalization to ensure validity of the dataset
 
-* Implement simple data analysis and/or visualization (answering at least part of your RQs)
+Implement simple data analysis and/or visualization (answering at least part of your RQs)
 
   - Calculate descriptive statistics, frequency distributions, and value counts
 
   - Perform initial exploratory data analysis (EDA) with Python libraries such as Pandas, Seaborn, and Matplotlib to uncover patterns, trends, and outliers in the data
 
-* Create a reproducible package (cf. Week 8)
+Create a reproducible package (cf. Week 8)
 
   - Document all describing steps so someone else can reproduce the same results
 
   - Upload output data to Box and include a shareable link to the folder
 
-* Archive your project in a repository, obtaining a persistent identifier (cf. Week 13)
+Archive your project in a repository, obtaining a persistent identifier (cf. Week 13)
 
   - Ensure all the code, workflow scripts, etc., can be reproduced for final desired results
 
@@ -40,13 +42,13 @@
 
 ### Qiran Hu
 
-## * Data acquisition (cf. Weeks 3-4)
+Data acquisition (cf. Weeks 3-4)
 
   - Script(s) used to programmatically acquire data (e.g., via requests) and check integrity (e.g., SHA-256)
 
   - Documentation describing steps someone else would use to acquire data, including checksums. This is particularly important if your data cannot be redistributed.
 
-* Automatic (programmatic) integration of datasets using Python/Pandas and/or SQL (cf. Weeks 5-6)
+Automatic (programmatic) integration of datasets using Python/Pandas and/or SQL (cf. Weeks 5-6)
 
   - Use Python (Pandas) and SQL to merge multiple datasets from different sources
 
@@ -56,13 +58,13 @@
 
   - Make sure all the script can be used to re-execute your end-to-end analysis workflow
 
-- Accurate citation of data and software used (cf. Weeks 11-12)
+Accurate citation of data and software used (cf. Weeks 11-12)
 
   - Documented all the researched data and third-party software for this project
 
   - Check the citations of the data and/or software used in this project complies with formal standards
 
-- Create metadata describing your package (cf. Week 12)
+Create metadata describing your package (cf. Week 12)
 
   - Document dataset description, variable definitions, data provenance, authorship, licensing, and usage instructions 
 
