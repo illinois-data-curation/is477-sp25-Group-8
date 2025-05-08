@@ -191,7 +191,7 @@ Sequence of steps required for someone else to reproduce our results.
 
 Create a local copy on your machine
 
-```git clone https\://github.com/illinois-data-curation/is477-sp25-Group-8 ```
+```git clone https://github.com/illinois-data-curation/is477-sp25-Group-8 ```
 
 ## Build Virtual Environment
 
