@@ -342,24 +342,18 @@ Kaggle is not our primary data source, but Kaggle is the platform where the info
 ### Dataset Citation
 
 
-Marlesson. (2025-03-15). Anime Dataset with Reviews - MyAnimeList | Kaggle. Retrieved from 
+- Marlesson. (2025-03-15). Anime Dataset with Reviews - MyAnimeList | Kaggle. Retrieved from <https://www.kaggle.com/datasets/marlesson/myanimelist-dataset-animes-profiles-reviews?select=reviews.csv>
 
 
-<https://www.kaggle.com/datasets/marlesson/myanimelist-dataset-animes-profiles-reviews?select=reviews.csv>
+- Andreu Vall Hernàndez. (2025-03-15). MyAnimelist Jikan Database | Kaggle. Retrieved from <https://www.kaggle.com/datasets/andreuvallhernndez/myanimelist-jikan?select=characters.csv>
 
 
-Andreu Vall Hernàndez. (2025-03-15). MyAnimelist Jikan Database | Kaggle. Retrieved from <https://www.kaggle.com/datasets/andreuvallhernndez/myanimelist-jikan?select=characters.csv>
-
-
-MyAnimeList. (2025-03-15). _MyAnimeList_. Retrieved March 15, 2025, from[ https://myanimelist.net/](https://myanimelist.net/)
-
-
-
+- MyAnimeList. (2025-03-15). _MyAnimeList_. Retrieved March 15, 2025, from[ https://myanimelist.net/](https://myanimelist.net/)
 
 ### API Citation
 
 
-@irfanDahir. (2025-05-05). Jikan - Unofficial Myanimelist API. Retrieved from <https://jikan.moe/>
+- @irfanDahir. (2025-05-05). Jikan - Unofficial Myanimelist API. Retrieved from <https://jikan.moe/>
 
 
 
@@ -367,26 +361,12 @@ MyAnimeList. (2025-03-15). _MyAnimeList_. Retrieved March 15, 2025, from[ https:
 ### Software Citation
 
 
-Python Software Foundation. (2023). Python (Version 3.11) \[Computer software]. Available from <https://www.python.org/>
+- Python Software Foundation. (2023). Python (Version 3.11) \[Computer software]. Available from <https://www.python.org/>
 
 
-Hipp, D. R. (2023). SQLite \[Software]. <https://www.sqlite.org/>
-
-
-\
-
-
-
-
-
+- Hipp, D. R. (2023). SQLite \[Software]. <https://www.sqlite.org/>
 
 ## Metadata Describing Our Dataset And Package (cf. Week 13)
-
-
-\
-
-
-
 
 
 
