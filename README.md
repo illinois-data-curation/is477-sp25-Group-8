@@ -279,4 +279,4 @@ Formatted citations for any papers, datasets, and software used in our project.Â
 
 - Python Software Foundation. (2023). Python (Version 3.11) \[Computer software]. Available from <https://www.python.org/>
 
-- - Hipp, D. R. (2023). SQLite \[Software]. <https://www.sqlite.org/>
+- Hipp, D. R. (2023). SQLite \[Software]. <https://www.sqlite.org/>
