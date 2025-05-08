@@ -126,7 +126,7 @@ rule most_popular_genre_plot:
 
 rule hash_check:
     input:
-        script = "AdditionalScripts/CheckHashSum.py",
+        script = "IntegrityCheck/CheckHashSum.py",
         files  = [
             "Data/animes.csv",
             "Data/characters.csv",

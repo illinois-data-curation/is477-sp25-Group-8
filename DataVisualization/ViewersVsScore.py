@@ -32,6 +32,5 @@ ax.spines["right"].set_visible(False)
 
 plt.tight_layout()
 
-os.makedirs("Results", exist_ok = True)
-plt.savefig("Results/AnimeScoresAndViewers.png", dpi = 300, bbox_inches = "tight")
+plt.savefig("Results/AnimeScoresAndViewers.png", dpi = 300)
 

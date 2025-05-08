@@ -72,6 +72,5 @@ ax.set_title(
 
 plt.tight_layout()
 
-os.makedirs("Results", exist_ok = True)
-plt.savefig("Results/MostPopularGenre.png", dpi = 300, bbox_inches = "tight")
+plt.savefig("Results/MostPopularGenre.png", dpi = 300)
 

@@ -30,6 +30,5 @@ plt.ylim(0, max(scored.max(), fav.max()) * 1.1)
 plt.legend(title = "Metric", fontsize = 12, title_fontsize = 14)
 plt.tight_layout()
 
-os.makedirs("Results", exist_ok = True)
-plt.savefig("Results/ViewersEngagementPercentage.png", dpi = 300, bbox_inches = "tight")
+plt.savefig("Results/ViewersEngagementPercentage.png", dpi = 300)
 
